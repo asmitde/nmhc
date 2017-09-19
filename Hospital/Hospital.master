@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Hospital.master.cs" Inherits="Hospital_Hospital" %>
+
+<asp:Content ContentPlaceHolderID="MainContent" Runat="Server">
+    <div class="leftCol">
+        <asp:Menu ID="SideMenu" runat="server" CssClass="sideMenu" 
+            DataSourceID="SiteMapDataSource2" EnableViewState="False" 
+            IncludeStyleBlock="False" MaximumDynamicDisplayLevels="1" 
+            StaticEnableDefaultPopOutImage="False">
+        </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" 
+            ShowStartingNode="False" StartingNodeUrl="~/Hospital/Default.aspx" />
+    </div>
+    <div class="cpmain">
+        <asp:ContentPlaceHolder ID="cpMainContent" runat="server" />
+    </div>
+    
+</asp:Content>
+

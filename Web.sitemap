@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/" title="NMHC"  description="Network of Medical Healthcare">
+      <siteMapNode url="~/Default.aspx" title="Home"  description="Go to the homepage" />
+      <siteMapNode url="~/Hospital/Default.aspx" title="Hospital"  description="Hospital">
+        <siteMapNode url="~/Hospital/NewPatient.aspx" title="New Patient" description="Register New Patient" />
+        <siteMapNode url="~/Hospital/PatientInfo/Default.aspx" title="Patient Information" description="View and Edit Patient Info" />
+        <siteMapNode url="~/Hospital/HospitalInfo.aspx" title="Hospital Information" description="Hospital Information" />
+        <siteMapNode url="~/Hospital/BedInfo.aspx" title="Bed Information" description="Bed Information" />
+        <siteMapNode url="~/Investigation/Default.aspx" title="Investigations" description="Investigations">
+          <siteMapNode title="Laboratory Medicine">
+            <siteMapNode title="Clinical Pathology">
+              <siteMapNode title="Haematology" />
+              <siteMapNode title="Immunology" />
+              <siteMapNode title="Bone Marrow Study" />
+              <siteMapNode title="Urine Analysis" />
+              <siteMapNode title="Stool Analysis" />
+              <siteMapNode title="CSF Study" />
+              <siteMapNode title="Pleural Fluid Analysis" />
+              <siteMapNode title="Peritoneal Fluid Analysis" />
+              <siteMapNode title="Pericardial Fluid Analysis" />
+              <siteMapNode title="Histopathology" />
+            </siteMapNode>
+            <siteMapNode title="Clinical Biochemistry">
+              <siteMapNode title="Blood Biochemistry" />
+              <siteMapNode title="Metabolic and Endocrine Assays" />
+              <siteMapNode title="Organ Function Tests" />
+              <siteMapNode title="Arterial Blood Gases" />
+            </siteMapNode>
+          </siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/ClinicalMonitoring/Default.aspx" title="Clinical Monitorings" description="Clinical Monitorings">
+          <siteMapNode url="~/ClinicalMonitoring/PatientComplaint.aspx" title="Patient Complaints" />
+          <siteMapNode url="~/ClinicalMonitoring/OnExamination.aspx" title="On Examination" />
+          <siteMapNode url="~/ClinicalMonitoring/VitalSigns.aspx" title="Vital Signs" />
+          <siteMapNode url="~/ClinicalMonitoring/ClinicalParams.aspx" title="Clinical Parameters" />
+          <siteMapNode url="~/ClinicalMonitoring/IntakeOutput.aspx" title="Intake / Output" />
+          <siteMapNode url="~/ClinicalMonitoring/Ventilator.aspx" title="Ventilator Monitoring" />
+          <siteMapNode url="~/ClinicalMonitoring/Cannulas.aspx" title="Checklist (Cannulas...)" />
+        </siteMapNode>
+        <siteMapNode url="~/ParaclinicalRecord/Default.aspx" title="Paraclinical Records" description="Paraclinical Records">
+          <siteMapNode title="Nursing Notes" />
+          <siteMapNode title="Diet / Nutrition Notes" />
+          <siteMapNode title="Physiotherapy Notes" />
+          <siteMapNode title="Speech Therapy Notes" />
+          <siteMapNode title="Medico-Legal and Forensic Info." />
+          <siteMapNode title="Medical Research Data" />
+          <siteMapNode title="Clinical Psychology Notes" />
+        </siteMapNode>
+        <siteMapNode url="~/Hospital/OfficialDocs/Default.aspx" title="Official Documents" description="Official Documents">
+        </siteMapNode>
+        <siteMapNode url="~/Hospital/Billing.aspx" title="Billing" description="Billing" />
+        <siteMapNode url="~/Hospital/Transport.aspx" title="Ambulance / Transport" description="Transport Information" />
+        <siteMapNode url="~/Hospital/MedStore/Default.aspx" title="Medical Store" description="Medical Store" />
+        <siteMapNode url="~/Hospital/Accomodation.aspx" title="Guest Accomodation" description="Accomodation Facilities" />
+        <siteMapNode url="~/Hospital/Management/Default.aspx" title="Management" description="Hospital Management" />
+      </siteMapNode>
+      <siteMapNode url="~/Patient/Default.aspx" title="Patient" description="Patient">
+        <siteMapNode url="~/Patient/EditProfile.aspx" title="Edit Profile" description="Edit Profile Information" />
+        <siteMapNode title="Inital Records">
+          <siteMapNode url="~/Patient/History.aspx" title="Clinical History" description="Clinical History" />
+          <siteMapNode url="~/Patient/PrevInvestigations.aspx" title="Previous Investigations" description="Previous Investigations" />
+          <siteMapNode url="~/Patient/PhysExam.aspx" title="Physical Examination" description="Physical Examination" />
+          <siteMapNode url="~/Patient/Diagnosis.aspx" title="Provisional Diagnosis" description="Provisional Diagnosis" />
+        </siteMapNode>
+        <siteMapNode title="Clinical Monitorings">
+          <siteMapNode title="Patient Complaints" />
+          <siteMapNode title="On Examination" />
+          <siteMapNode title="Vital Signs" />
+          <siteMapNode title="Clinical Parameters" />
+          <siteMapNode title="Intake / Output" />
+          <siteMapNode title="Ventilator Monitoring" />
+          <siteMapNode title="Checklist for Cannulas, etc" />
+        </siteMapNode>
+        <siteMapNode title="Investigations">
+          <siteMapNode title="Laboratory Medicine">
+            <siteMapNode title="Clinical Pathology">
+              <siteMapNode title="Haematology" />
+              <siteMapNode title="Immunology" />
+              <siteMapNode title="Bone Marrow Study" />
+              <siteMapNode title="Urine Analysis" />
+              <siteMapNode title="Stool Analysis" />
+              <siteMapNode title="CSF Study" />
+              <siteMapNode title="Pleural Fluid Analysis" />
+              <siteMapNode title="Peritoneal Fluid Analysis" />
+              <siteMapNode title="Pericardial Fluid Analysis" />
+              <siteMapNode title="Histopathology" />
+            </siteMapNode>
+            <siteMapNode title="Clinical Biochemistry">
+              <siteMapNode title="Blood Biochemistry" />
+              <siteMapNode title="Metabolic and Endocrine Assays" />
+              <siteMapNode title="Organ Function Tests" />
+              <siteMapNode title="Arterial Blood Gases" />
+            </siteMapNode>
+          </siteMapNode>
+        </siteMapNode>
+        <siteMapNode title="Physician's Advice">
+          <siteMapNode title="General Advice" />
+          <siteMapNode title="Dietary Advice" />
+          <siteMapNode title="Physiotherapy Advice" />
+          <siteMapNode title="Investigations Advice" />
+          <siteMapNode title="Prescribed Medicines" />
+          <siteMapNode title="Blood Transfusion Records" />
+          <siteMapNode title="Pre-Anaesthetic Checkup" />
+          <siteMapNode title="Anaesthetic Notes" />
+          <siteMapNode title="Intervention / Surgical Notes" />
+          <siteMapNode title="Referrals" />
+          <siteMapNode title="Medical Board" />
+        </siteMapNode>
+        <siteMapNode title="Paraclinical Records">
+          <siteMapNode title="Nursing Notes" />
+          <siteMapNode title="Diet / Nutrition Notes" />
+          <siteMapNode title="Physiotherapy Notes" />
+          <siteMapNode title="Speech Therapy Notes" />
+          <siteMapNode title="Medico-Legal and Forensic Info." />
+          <siteMapNode title="Medical Research Data" />
+          <siteMapNode title="Clinical Psychology Notes" />
+        </siteMapNode>
+        <siteMapNode title="Official Documents">
+          
+        </siteMapNode>
+        <siteMapNode title="Billing" />
+      </siteMapNode>
+      <siteMapNode url="~/Physician/Default.aspx" title="Physician" description="Physician">
+        <siteMapNode url="~/Physician/NewPhysician.aspx" title="New Physician" description="Register New Physician" />
+        <siteMapNode url="~/Physician/EditProfile.aspx" title="Edit Profile" description="Edit Profile Information" />
+      </siteMapNode>
+      <siteMapNode url="~/AboutUs/About.aspx" title="About Us" description="About Us" />
+    </siteMapNode>
+</siteMap>

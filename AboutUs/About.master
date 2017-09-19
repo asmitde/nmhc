@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="About.master.cs" Inherits="AboutUs_About" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
+    <div class="leftCol">
+        <asp:Menu ID="SideMenu" runat="server" CssClass="sideMenu"
+                    EnableViewState="False" IncludeStyleBlock="False" Orientation="Vertical" 
+                    DataSourceID="SiteMapDataSource1" StaticEnableDefaultPopOutImage="False" MaximumDynamicDisplayLevels="1" />
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+                    ShowStartingNode="False" StartingNodeUrl="~/AboutUs/About.aspx" />
+    </div>
+    <div class="main">
+        <asp:ContentPlaceHolder ID="cpMainContent" runat="server" />
+    </div>
+</asp:Content>
+

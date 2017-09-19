@@ -1,0 +1,8 @@
+﻿Dear ##Name##,
+
+You have been registered at NMHC as a ##Role##.
+You can now log in to the NMHC website (www.nmhc.net)
+with the following information:
+
+Username: ##Username##
+Password: ##Password##
